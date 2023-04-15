@@ -1,0 +1,53 @@
+@media only screen and (max-width:768px) {
+    .hom a{
+        display: none;
+    }
+    
+    .header__item{
+        padding: 1rem 0;
+    }
+    .header__item h1{
+        font-size: 3rem;;
+        margin-bottom: 0.5rem;
+    }
+    .title h2{
+        font-size: rem;
+    }
+    .title p{
+        width: 100%;
+    }
+        
+    .girls__content{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 3rem;
+    }
+    .about__content{
+        display: grid;
+        grid-template-columns:100%;
+        gap: 3rem;
+        margin-top: 7rem;
+    }
+    
+    .lagativ__content{
+        grid-template-columns: 100%;
+    }
+    .lagativ__item h3{
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }   
+    
+    .form__content{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 3rem;
+    }
+    
+    .aboutt__content{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 3rem;
+        padding: 6rem 0;
+    }
+}
